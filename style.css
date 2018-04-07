@@ -1,0 +1,235 @@
+
+    body {
+        margin: 0;
+        background: rgb(255, 255, 255);
+    }
+    header {
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        position: relative;
+    }
+    .logo-img {
+        height: 50px;
+    }
+    .links {
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        font-size: 24px;
+        padding-right: 15px;
+        transform: translate(0, -50%);
+    }
+    .link {
+        float: left;
+        padding-right: 8px;
+        padding-left: 8px;
+        padding-top: 28px;
+        padding-bottom: 24px;
+        background-clip: padding-box;
+    }
+    .logo { 
+        position: absolute;
+        top: 50%;
+        left: 50px;
+        transform: translate(0, -45%);
+    }
+
+    a:link {
+        text-decoration: none;
+        color: white;
+    }
+    a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    .link:hover {
+        background-color: rgba(255, 255, 255, 0.37)
+    }
+    .content-one {
+        position: relative;
+        height: 600px;
+        background: linear-gradient(rgb(255, 0, 0), rgb(103, 1, 187));
+    }
+    .one-header {
+        margin: 0;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        font-weight: 600;
+    }
+    .one-text {
+        margin: 0;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        padding-top: 75px;
+        text-align: center;
+    }
+    .one-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .button-one {
+        border: 2px solid white;
+        font-size: 20px;
+        position: absolute;
+        left: 45%;
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .content-two {
+        height: 700px;
+    }
+    .header-two {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .two-header {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .descr-two {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .two-descr {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .list-two {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        margin-top: 10px; 
+    }
+    .two-list-photo1 {
+        height:90px;
+        background: blue;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    } 
+    .two-list-photo2 {
+        height: 90px;
+        background: blue;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .two-list-photo3 {
+        height: 90px;
+        background: blue;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .two-list-part {
+        background: rgba(0, 0, 0, 0.11);
+        border-radius: 8px;
+        height: 350px;
+    }
+    .two-list-text {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 300px;
+        word-wrap: normal;
+        text-align: center;
+        font-size: 18px;
+    }
+    .two-list-header {
+        margin: 0;
+        background: rgba(0, 0, 0, 0.33);
+        height: inherit;
+        color: white;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-weight: 530;
+        font-size: 2em;
+        border-radius: 5px;
+    }
+@media screen and (max-width: 525px) {
+
+    header {
+        height: 60px;
+    }
+    .logo-img {
+        height: 40px;
+    }
+    .links {
+        padding-right: 0;
+    }
+    .link {
+        padding-right: 6px;
+        padding-left: 6px;
+        font-size: 20px;
+    }
+    .logo { 
+        left: 30px;
+    }
+    .content-one {
+        height: 600px;
+    }
+    .one-header {
+        padding-top: 70px;
+        text-align: center;
+    }
+    .button-one {
+        left: 35%;
+    }
+    .descr-two {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .two-descr {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .list-two {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        margin-top: 10px; 
+    }
+    .two-list-photo1 {
+        height:90px;
+        background: blue;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    } 
+    .two-list-photo2 {
+        height: 90px;
+        background: blue;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .two-list-photo3 {
+        height: 90px;
+        background: blue;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .two-list-part {
+        background: rgba(0, 0, 0, 0.11);
+        border-radius: 8px;
+        height: 350px;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
